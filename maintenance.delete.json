@@ -1,0 +1,7 @@
+{
+  "jsonrpc": "2.0",
+  "method": "maintenance.delete",
+  "params": [MAINTENANCEWINDOWID],
+  "auth": AUTHID,
+  "id": 1
+}

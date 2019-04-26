@@ -1,0 +1,22 @@
+{
+  "jsonrpc": "2.0",
+  "method": "maintenance.create",
+  "params": {
+      "name": "MAINTENANCEWINDOWNAME",
+      "active_since": MAINTENANCESTARTTIME,
+      "active_till": MAINTENANCEENDTIME,
+      "groupids": [
+          "HOSTGROUPID"
+      ],
+      "timeperiods": [
+          {
+              "timeperiod_type": 0,
+              "start_date": MAINTENANCESTARTTIME,
+              "start_time": 0,
+              "period": 864000
+          }
+      ]
+  },
+  "auth": AUTHID,
+  "id": 1
+}

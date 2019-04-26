@@ -1,0 +1,14 @@
+{
+  "jsonrpc": "2.0",
+  "method": "maintenance.get",
+  "params": {
+    "output": "maintenanceid",
+    "filter": {
+      "name": [
+        "MAINTENANCEWINDOWNAME"
+      ]
+    }
+  },
+  "auth": AUTHID,
+  "id": 1
+}
